@@ -1,0 +1,39 @@
+/*function nombre_de_mots(str){
+    let compteur=0;
+    for(let i=0;i<str.length;i++){
+        if(str[i]===" "){
+            continue;
+        }
+        else{
+            compteur+=1;
+        }
+    }
+    return compteur;
+}
+console.log(nombre_de_mots("je suis chez gomycode."))*/
+/*function longeur(str){
+    let compteur=0;
+    for(let i=0;i<str.length;i++){
+            compteur+=1;
+    }
+    return compteur;
+}
+console.log(longeur("je suis chez gomycode."))*/
+
+function voyelle(str){
+    let compteur=0;
+    for(let i=0;i<str.length;i++){
+        if(str[i] !=="a" && str[i] !=="e" && str[i] !=="i"&& str[i] !=="o" && str[i] !=="u" && str[i] !=="y")
+           continue;
+    
+    else{
+        compteur++;
+    }
+}
+  return compteur;  
+}
+console.log(voyelle("je suis chez gomycode."))
+
+
+
+
