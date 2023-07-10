@@ -1,4 +1,8 @@
-/*function nombre_de_mots(str){
+
+
+// le nombre de mots dans la phrase sans les espaces.
+
+function nombre_de_mots(str){
     let compteur=0;
     for(let i=0;i<str.length;i++){
         if(str[i]===" "){
@@ -10,15 +14,22 @@
     }
     return compteur;
 }
-console.log(nombre_de_mots("je suis chez gomycode."))*/
-/*function longeur(str){
+console.log(nombre_de_mots("je suis chez gomycode."))
+
+
+// la longeur de la chaine avec les espaces.
+
+function longeur(str){
     let compteur=0;
     for(let i=0;i<str.length;i++){
             compteur+=1;
     }
     return compteur;
 }
-console.log(longeur("je suis chez gomycode."))*/
+console.log(longeur("je suis chez gomycode."))
+
+
+// nombre de voyelle.
 
 function voyelle(str){
     let compteur=0;
